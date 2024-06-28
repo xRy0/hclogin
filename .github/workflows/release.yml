@@ -24,7 +24,7 @@ jobs:
           distribution: 'temurin'
       
       - name: Build with Maven
-        run: mvn -B package --file hclogin/pom.xml
+        run: mvn -B package --file pom.xml
       
       - name: Create Release
         id: create_release
@@ -35,7 +35,7 @@ jobs:
           tag_name: ${{ github.run_number }}.${{ github.run_attempt }}
           name: Release code\#${{ github.run_number }}.${{ github.run_attempt }}
           files: |
-            hclogin/target/*.jar
+            target/*.jar
           draft: false
           prerelease: false
 
