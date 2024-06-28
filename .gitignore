@@ -34,16 +34,14 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
 *.code-workspace
 
 # Local History for Visual Studio Code
 .history/
 
 servers/
+
+hclogin/src/main/resources/config.yml
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Java,Maven,VisualStudioCode
