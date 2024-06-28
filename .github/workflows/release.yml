@@ -33,9 +33,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.sha }}
-          release_name: Release ${{ github.sha }}
+          name: Release ${{ github.sha }}
           files: |
-            target/*.jar
+            hclogin/target/*.jar
           draft: false
           prerelease: false
 
