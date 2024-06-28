@@ -13,7 +13,7 @@ import ru.ry0.hclogin.config.ConfigManager;
 import ru.ry0.hclogin.events.ServerPostConnectListener;
 import ru.ry0.hclogin.pulsar.PulsarManager;
 
-@Plugin(id = "authplugin", name = "HinaCraft Login", version = "0.7", authors = {"Ry0"})
+@Plugin(id = "authplugin", name = "HinaCraft Login", version = "0.8", authors = {"Ry0"})
 public class AuthPlugin {
     private final ProxyServer server;
     private final ConfigManager configManager;
