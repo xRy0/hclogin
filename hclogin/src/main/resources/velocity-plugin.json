@@ -1,0 +1,16 @@
+{
+    "id": "HinaCraftLogin",
+    "name": "HinaCraft Login",
+    "version": "0.7",
+    "authors": [
+      "Ry0"
+    ],
+    "dependencies": [
+      {
+        "id": "velocity",
+        "optional": false
+      }
+    ],
+    "main": "ru.ry0.hclogin.AuthPlugin"
+  }
+  
