@@ -1,8 +1,0 @@
-auth:
-  server_name: "auth"
-  redirect_server: "game"
-  auth_url: "https://hinacraft.jp/login/"
-pulsar:
-  service_url: "pulsar://adress"
-  listener_name: "name"
-  topic: "non-persistent://topic"
