@@ -37,11 +37,15 @@ buildNumber.properties
 .vscode/
 *.code-workspace
 
+hclogin/src/main/resources/config.yml
+
 # Local History for Visual Studio Code
 .history/
 
 servers/
 
-hclogin/src/main/resources/config.yml
+src/main/resources/config.yml
 
-# End of https://mrkandreev.name/snippets/gitignore-generator/#Java,Maven,VisualStudioCode
+.DS_Store
+
+
