@@ -1,4 +1,4 @@
 name: hclogin
 main: ru.ry0.hclogin.AuthPlugin
-version: 0.7
+version: 0.8
 api-version: 1.15
